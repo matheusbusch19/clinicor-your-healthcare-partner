@@ -3,7 +3,7 @@ import { Menu, X, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { clinic, navLinks } from "@/lib/clinic";
-import logo from "@/assets/clinicor-logo.png.asset.json";
+import logo from "@/assets/logo.png";
 
 export function SiteHeader() {
   const [open, setOpen] = useState(false);
@@ -35,7 +35,7 @@ export function SiteHeader() {
       <div className="container-page flex h-[4.5rem] items-center justify-between gap-4 md:h-20">
         <a href="#inicio" className="flex items-center gap-3" aria-label="Clinicor — início">
           <img
-            src={logo.url}
+            src={logo}
             alt="Logotipo Clinicor"
             width={160}
             height={40}

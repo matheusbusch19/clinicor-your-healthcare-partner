@@ -1,6 +1,6 @@
 import { Instagram, MapPin, Phone } from "lucide-react";
 import { clinic } from "@/lib/clinic";
-import logo from "@/assets/clinicor-logo.png.asset.json";
+import logo from "@/assets/logo.png";
 
 const footerLinks = [
   { label: "Início", href: "#inicio" },
@@ -16,7 +16,7 @@ export function SiteFooter() {
       <div className="container-page grid gap-12 py-16 md:grid-cols-3">
         <div>
           <img
-            src={logo.url}
+            src={logo}
             alt="Logotipo Clinicor"
             width={180}
             height={45}
